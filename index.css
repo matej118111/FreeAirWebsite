@@ -1,0 +1,39 @@
+body {
+    text-align:center;
+}
+form {
+    display: inline-block;
+}
+
+button {
+    border-color: black;
+}
+
+.index-button1 {
+    color: black;
+}
+
+.text-index-one {
+    color: black;
+}
+
+.index-button2 {
+    color: black;
+}
+
+.index-submit-button-1 {
+    color: black;
+    border-color: black;
+}
+
+.div-login-form {
+    background-color: #d9d9d9;
+    border-style: solid;
+    border-color: #d9d9d9;
+    border-width: thick;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-right: 50%;
+}
