@@ -12,7 +12,12 @@ function getRandomInt(max) {
 
 // Thanks to https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random , for the function above this comment.
   let numberoneoneeightone = Math.random(16);
-  window.location.replace(numberoneoneeightone ".com");
+  console.log(Math.random(16));
+  const extension = ".png";
+  let comb = numberoneoneeightone + extension;
+  let path = "images/";
+  let total = path + comb;
+  window.location.replace(total);
 </script>
 
 <noscript>Please enable JavaScript in your browser for this website to work correctly, thanks.</noscript>
