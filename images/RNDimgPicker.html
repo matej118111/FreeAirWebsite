@@ -3,18 +3,18 @@
     
     </body>
 </html>
-
 <script>
-function randNum1(){
+//   Because i don't know how to make this using JavaScript i needed to use my (un)trusted friend google...
+function die1181(){
     return Math.floor(Math.random()*16); 
 }
-
+  
 // Thanks to https://stackoverflow.com/questions/51611998/how-do-you-save-the-value-of-a-randomly-generated-number-for-recalling-in-a-diff , for the function above this comment.
 // And also thanks to w3schools.com for teaching me how to make variables and how to make the redirect thing.
 // https://www.w3schools.com/js/js_variables.asp - variables
 // https://www.w3schools.com/howto/howto_js_redirect_webpage.asp - redirect
-  var number = randNum1();
-  console.log(randNum1());
+  var number = die1181();
+  console.log(number());
   const extension = ".png";
   let comb = number + extension;
   window.location.replace(comb);
