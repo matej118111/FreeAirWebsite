@@ -1,36 +1,51 @@
 <html>
   <title>Free air, Services</title>
   <body>
-    
-<script>
-function rnd(){
-    return Math.floor(Math.random()*16); 
-}
-  
-  var sus = rnd();
-
-  
-//   build using imgen api - https://www.jitbit.com/imgen/
-
-    <form action="sus.html">
-      <img src="https://media.discordapp.net/attachments/900911687341858848/926667295990886400/uncaption.gif">
-      <button type="submit">Generate</button>
-      </form>
-    </script>
-    
+    <form method="get" action="sus.html">
+   Text:  <input type="text" name="textn">
+      <br>
+      <input type="submit" value="Submit">
+    </form>
     </body>
   </html>
 
 <noscript>Your browser does not support javascript or its disabled, please enable it or change your browser for this website to work "AS IT SHOULD" </noscript>
 
-<!-- <script>
+<script>
 function rnd(){
     return Math.floor(Math.random()*16); 
 }
   
-  var sus = rnd();
-
+  function rnd1(){
+    return Math.floor(Math.random()*16); 
+}
   
-//   build using imgen api - https://www.jitbit.com/imgen/
-</script> -->
+  function rnd2(){
+    return Math.floor(Math.random()*16); 
+}
+  var input3 = document.getElementsByName("textn")[0].value;
+// Variables that stores random number from 0 to 15   
+  var sus0 = rnd(); 
+  var sus1 = rnd1();
+  var sus2 = rnd2();
+// ---------------
+  var link1 = "https://imgen.jitbit.com?bg=";
+  var link2 = "&logo=";
+  var link3 = "&txt=";
+  var link4 = "&font=Corbel";
+  
+  var edit = link1 + input1 + link2 + input2 + link3 + input3l;
+  
+  var linklogo = "https://kmedia.netlify.app/amogusgenerator/amogusimg/";
+  var input2 = linklogo + sus1 + png;
+  
+  var png = ".png";
+  var linkbackground = "https://kmedia.netlify.app/amogusgenerator/background/";
+  var input1 = linkbackground + sus0 + png;
+  
+  
+  window.location.replace(edit);
+// build using imgen api - https://www.jitbit.com/imgen/ 
+//   https://imgen.jitbit.com?bg={{ background }}&logo={{ logo }}&txt={{ title }}&font=Corbel
+</script>
 
